@@ -1,0 +1,1 @@
+Switch LED_Test "Test LED" (all) {mqtt=">[broker:/home/06/spk1/led/inTopic:command:on:ON],>[broker:/home/06/spk1/led/inTopic:command:off:OFF],<[broker:/home/06/spk1/led/outTopic:state:default"}
