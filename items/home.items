@@ -1,3 +1,3 @@
 Group All
 
-Switch LED_Test "Test LED" (All) {mqtt=">[openhab:/home/06/spk1/led/inTopic:command:on:ON],>[openhab:/home/06/spk1/led/inTopic:command:off:OFF],<[openhab:/home/06/spk1/led/outTopic:state:default]"}
+Switch LED_Test "Test LED" (All) {mqtt=">[broker:/home/06/spk1/led/inTopic:command:ON:ON],>[openhab:/home/06/spk1/led/inTopic:command:OFF:OFF],<[openhab:/home/06/spk1/led/outTopic:state:default]"}

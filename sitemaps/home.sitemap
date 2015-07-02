@@ -1,7 +1,7 @@
 sitemap home label="Home Sitemap"
 {
-	Frame
+	Frame label="Test"
 	{
-		Switch item=LED_Test
+		Switch item=LED_Test label="LED Test"
 	}
 }
