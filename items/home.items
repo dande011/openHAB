@@ -1,4 +1,4 @@
 Group All
 
 Switch LED_Test "Test LED" (All) {mqtt=">[broker:/home/06/spk1/led/command:command:ON:ON],>[broker:/home/06/spk1/led/command:command:OFF:OFF],<[broker:/home/06/spk1/led/state:state:default]"}
-Switch HotTub "Hot Tub" (All) {mqtt=">[broker:/home/06/spk1/d0/command:command:ON:ON],>[broker:/home/06/spk1/d0/command:OFF:OFF],<[broker:/home/06/spk1/d0/state:state:default"}
+Switch HotTub "Hot Tub" (All) {mqtt=">[broker:/home/06/spk1/d0/command:command:ON:ON],>[broker:/home/06/spk1/d0/command:command:OFF:OFF],<[broker:/home/06/spk1/d0/state:state:default"}
