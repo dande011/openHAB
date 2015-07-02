@@ -1,4 +1,7 @@
 sitemap home label="Home Sitemap"
 {
-	
+	Frame
+	{
+		Switch item=LED_Test
+	}
 }
