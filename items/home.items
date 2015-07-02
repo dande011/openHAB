@@ -1,4 +1,6 @@
 Group All
 
 Switch LED_Test "Test LED" (All) {mqtt=">[broker:/home/06/spk1/led/command:command:ON:ON],>[broker:/home/06/spk1/led/command:command:OFF:OFF],<[broker:/home/06/spk1/led/state:state:default]"}
-Switch HotTub "Hot Tub" (All) {mqtt=">[broker:/home/06/spk1/d0/command:command:ON:ON],>[broker:/home/06/spk1/d0/command:command:OFF:OFF],<[broker:/home/06/spk1/d0/state:state:default"}
+Switch HotTubPumpHigh "Hot Tub Pump HIGH" (All) {mqtt=">[broker:/home/06/spk1/d0/command:command:ON:ON],>[broker:/home/06/spk1/d0/command:command:OFF:OFF],<[broker:/home/06/spk1/d0/state:state:default"}
+Switch HotTubPumpLow "Hot Tub Pump LOW" (ALL) {mqtt=">[broker:/home/06/spk1/d1/command:command:ON:ON],>[broker:/home/06/spk1/d1/command:command:OFF:OFF],<[broker:/home/06/spk1/d1/state:state:default"}
+Switch HotTubHeater "Hot Tub Heater" (All) {mqtt=">[broker:/home/06/spk1/d2/command:command:ON:ON],>[broker:/home/06/spk1/d2/command:command:OFF:OFF],<[broker:/home/06/spk1/d2/state:state:default"}
