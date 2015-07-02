@@ -2,7 +2,7 @@ sitemap home label="Home Sitemap"
 {
 	Frame label="Test"
 	{
-		Switch item=LED_Test label="LED Test"
+		//Switch item=LED_Test label="LED Test"
 		Switch item=HotTub label="Hot Tub"
 	}
 }
